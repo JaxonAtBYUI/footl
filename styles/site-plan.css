@@ -208,3 +208,17 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
+
+#colored-background {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+#colored-background img {
+    display: inline;
+    padding: 10px 10px;
+}
+
+.bundy {
+    max-width: 30%;
+}
