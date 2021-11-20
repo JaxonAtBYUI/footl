@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog`</title>
+    <title>Blog</title>
 </head>
 <body>
-        <header>
+    <header id="top">
         <nav>
-            <a href="index.html">home</a>
+            <a href="index.html">Home</a>
             <a href="#">Directory</a>
             <a href="blog.html">Blog</a>
             <a href="#">Store</a>
@@ -20,21 +20,68 @@
             <img src="images/logo-hard-white.png" alt="logo image">
         </a>
     </header>
+    <a href="javascript:void(0)" class="openbtn" onclick="openNav()">></a>
+    <div id="sidenavbar" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#top">Top</a>
+        <a href="#bp1">Zodiac Killer</a>
+        <a href="#bp2">Gabby Petito</a>
+        <a href="#bottom">Bottom</a>
+    </div>
     <main>
-
-    </main>
-    <footer>
-        <div id="copyright">
-            <img src="" alt="copyright symbol">
+        <h1>Recent Updates</h1>
+        <div id="bp1" class="blog-post colored-bg">
+            <img src="images/zodiac-cipher.jpg" alt="zodiac killer's cipher">
+            <h2>Zodiac Killer Discovered?</h2>
             <p>
-                Jaxon Hamm 2021
+                Recent news of the Zodiac Killer’s identity being discovered has broke out. 
+                It has been reported by Fox news that his name is Gary F. Poste. This 
+                conclusion was reached by a group of people called the Case Breakers who 
+                determined that he was the Zodiac Killer by evidence and photos found in 
+                Poste’s dark room. In these photographs, it was revealed that he had a scar 
+                on his forehead that matched the sketch of the Zodiac Killer. This evidence 
+                dubious however. Attempts have been made to connect to other cases such as 
+                the Bates Case, but it was concluded that they were not connected. The 
+                Authorities have rebuffed the Case Breakers and have stated that their 
+                evidence is mostly circumstantial. The waters are murky but it seems likely 
+                at a real conclusion to this case will not come soon. 
             </p>
+        </div>
+        <div id="bp2" class="blog-post colored-bg">
+            <img src="images/petito-selfie.jpg" alt="zodiac killer's cipher">
+            <h2>Gabby Petito Update</h2>
+            <p>
+                The Gabby Petito case has gained a lot of traction in world of social media. 
+                Since her disappearance in August 2021, where she was last seen with her boyfriend. 
+                People have been following the case closely and demanding justice for her. Following 
+                her disappearance there have been major search parties to find her boyfriend and 
+                to search for her. Consequently, many other missing persons cases have been solved, 
+                and the remains of victims have been recovered. The solving of these cases has garnered 
+                new awareness for missing persons and domestic abuse. In a recently released bodycam 
+                video from a Utah police officer, it was revealed that Gabby Petito was exhibiting 
+                signs of abuse from her boyfriend Brian Laundrie. As a result, of this footage and 
+                the Petito case, the public has become more educated on domestic abuse. There have 
+                been videos made about how to handle domestic abuse or how to signal for help if you 
+                find yourself in these situations. With the recovery of the bodies it just goes to show 
+                that people do give on missing person cases if they do not strike the hearts of the masses.
+            </p>
+        </div>
+    </main>
+    <footer id="bottom">
+        <div id="copyright">
+            <p>© Jaxon Hamm 2021</p>
         </div>
         <div id="hotlines">
             <h1>Hotlines</h1>
+            <img src="images/phone.png" alt="phone"><p>Suicide Prevention: </p><a href="tel:18002738255">1(800)273-8255</a>
+            <img src="images/phone.png" alt="phone"><p>Sexual Assualt: </p><a href="tel:18006564673">1(800)656-4673</a>
+            <img src="images/phone.png" alt="phone"><p>Domestic Violence: </p><a href="tel:18887907262">1(888)790-7262</a>
+            <img src="images/phone.png" alt="phone"><p>Addiction: </p><a href="tel:18006624357">1(800)662-4357</a>
         </div>
         <div id="contact-info">
             <h1>Contact Us</h1>
+            <p>Send an email: </p><a href="mailto: jaxonhamm@yahoo.com">jaxonhamm@yahoo.com</a>
+            <p>Call: </p><a href="tel:#">1(800)XXX-XXXX</a>
         </div>
         <a href="https://www.facebook.com/" target="_blank">
             <img src="images/facebook-logo-white.png" alt="facebook">
@@ -46,5 +93,6 @@
             <img src="images/twitter-logo-white.png" alt="twitter">
         </a>
     </footer>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
