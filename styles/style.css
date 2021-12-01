@@ -326,9 +326,9 @@ footer {
     background-color: var(--black);
     display: grid;
     max-width: 1600px;
-    height: 300px;
+    height: 400px;
     padding: 30px;
-    grid-template-columns: 1fr 2fr 1fr 3fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 1fr;
     text-decoration: none;
 }
@@ -342,8 +342,32 @@ footer {
 }
 #hotlines {
     grid-column: 2/3;
-    display:inline
 }
-#hotlines {
-
+#hotlines ul {
+    list-style-type: none;
+    flex-wrap: nowrap;
+}
+#hotlines ul li p {
+    color: white;
+    text-align: left;
+}
+#hotlines ul li p a {
+    color: white;
+}
+#contact-info ul {
+    list-style-type: none;
+}
+#contact-info ul li p {
+    color: white;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+#contact-info ul li p a {
+    color: white;
+}
+#socials a{
+    text-decoration: none;
+}
+#socials a img {
+    padding:30px;
 }
