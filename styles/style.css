@@ -260,6 +260,7 @@ margin-top:-23px;
 #store-promo p {
     margin: 15px;
     font-size: 1.75em;
+    color: white;
 }
 
 #blog-promo {
@@ -272,6 +273,7 @@ margin-top:-23px;
 }
 #blog-promo p {
     font-size: 1.75em;
+    color: white;
 }
 
 /* About us section*/
@@ -301,7 +303,7 @@ margin-top:-23px;
 #aubrey {
     display: grid;
     padding: 30px;
-    grid-template-columns: 3fr 1r;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 5fr 1fr;
 }
 #aubrey-image {
@@ -370,4 +372,48 @@ footer {
 }
 #socials a img {
     padding:30px;
+}
+
+/* Blog Post CSS */
+.blog-post {
+    padding: 20px;
+    display: grid;
+    grid-template: 60px auto/ auto auto;
+}
+#bp1 img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin: auto;
+    padding: 10px;
+    width: 95%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(184, 184, 184);
+}
+#bp1 h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#bp1 p {
+    padding: 15px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#bp2 img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin: auto;
+    padding: 10px;
+    width: 95%;
+}
+
+#bp2 h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#bp2 p {
+    padding: 15px;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
