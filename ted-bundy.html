@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ted Bundy</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -15,23 +16,28 @@
             <a href="#">Store</a>
             <a href="site-plan.html">Site Plan</a>
         </nav>
-        <input type="text" placeholder="Search..">
+        <input type="text" placeholder="Search..." id="search">
         <a href="index.html" id="nav-logo">
-            <img src="images/logo-hard-white.png" alt="logo image">
+            <img src="images/small-logo.png" alt="logo image">
         </a>
     </header>
-    <a href="javascript:void(0)" class="openbtn" onclick="openNav()">></a>
-    <div id="sidenavbar" class="sidenav"> <!--When this page is set up set up the links-->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#10095;</p></a>
+    <div id="sidenavbar" class="sidenav">
+        <a id="btn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h1>Sections</h1>
         <a href="#top">Top</a>
-
+        <a href="#early-life">Early Life</a>
+        <a href="#education">Education</a>
+        <a href="#catching">Catching Bundy</a>
+        <a href="#trial">Trial and Conviction</a>
+        <a href="#sources">Sources</a>
         <a href="#bottom">Bottom</a>
     </div>
     <main>
         <img id="mugshot" src="images/bundy-headshot.jpg" alt="ted bundy headshot">
         <h1 id="headline">Ted Bundy</h1>
-        <div class="colored-bg">
-            <img src="" alt=""> <!--FIGURE OUT THIS IMAGE-->
+        <div class="colored-bg" id="early-life">
+            <img src="images/bundy-child.jpeg" alt="ted bundy as a child">
             <h3>Early Life</h3>
             <p>
                 Theordore Robert Cowell was born on November 24, 1946 to his mother Eleanor 
@@ -56,9 +62,9 @@
                 himself, and this caused him to be an easy target for others to pick on in school.
             </p>
         </div>
-        <div class="colored-bg">
+        <div class="colored-bg" id="education"> 
             <h3>Education</h3>
-            <img src="" alt=""> <!--FIGURE OUT THIS IMAGE-->
+            <img src="images/bundy-teenager.jpg" alt="ted bundy as a teenager">
             <p>
                 After graduating high school in 1965 he was accepted into the University of 
                 Puget Sound. After attending the University of Puget sound for a while he 
@@ -76,9 +82,9 @@
                 he moved to Utah and began attending school at the University of Utah.
             </p>
         </div>
-        <div class="colored-bg">
+        <div class="colored-bg" id="catching">
             <h3>Catching Bundy</h3>
-            <img src="" alt=""> <!--FIGURE OUT THIS IMAGE-->
+            <img src="images/bundy-custody.png" alt="ted bundy in custody">
             <p>
                 Disappearances and attacks continued to happen during this time and he did not 
                 attend his classes despite his enrollment. During this time cases such as the 
@@ -106,9 +112,9 @@
                 detain him and the crime spree was over.
             </p>
         </div>
-            <div class="colored-bg">
+        <div class="colored-bg" id="trial">
             <h3>Trial and Conviction</h3>
-            <img src="" alt=""> <!--FIGURE OUT THIS IMAGE-->
+            <img src="images/bundy-court.png" alt="ted bundy in court">
             <p>
                 Once again Bundy decided that he would be his own defense lawyer during the trial. 
                 Because of the number of crimes that he had garnered infamy and was a form of celebrity 
@@ -120,11 +126,9 @@
                 36 women though he may have killed upwards of 100 people. 
             </p>
         </div>
-        <div class="colored-bg">
+        <div class="colored-bg" id="sources">
             <h3>Sources</h3>
-            <img src="" alt=""> <!--FIGURE OUT THIS IMAGE-->
             <p>https://www.biography.com/crime-figure/ted-bundy</p>
-            <p>https://www.britannica.com/topic/rape-crime</p>
             <p>https://allthatsinteresting.com/ted-bundy</p>
             <p>https://en.wikipedia.org/wiki/Ted_Bundy</p>
         </div>
@@ -135,25 +139,31 @@
         </div>
         <div id="hotlines">
             <h1>Hotlines</h1>
-            <img src="images/phone.png" alt="phone"><p>Suicide Prevention: </p><a href="tel:18002738255">1(800)273-8255</a>
-            <img src="images/phone.png" alt="phone"><p>Sexual Assualt: </p><a href="tel:18006564673">1(800)656-4673</a>
-            <img src="images/phone.png" alt="phone"><p>Domestic Violence: </p><a href="tel:18887907262">1(888)790-7262</a>
-            <img src="images/phone.png" alt="phone"><p>Addiction: </p><a href="tel:18006624357">1(800)662-4357</a>
+            <ul>
+                <li><p><img src="images/phone.png" alt="phone"> Suicide Prevention: <a href="tel:18002738255">1(800)273-8255</a></p></li>
+                <li><p><img src="images/phone.png" alt="phone"> Sexual Assualt: <a href="tel:18006564673">1(800)656-4673</a></p></li>
+                <li><p><img src="images/phone.png" alt="phone"> Domestic Violence: <a href="tel:18887907262">1(888)790-7262</a></p></li>
+                <li><p><img src="images/phone.png" alt="phone"> Addiction: <a href="tel:18006624357">1(800)662-4357</a></p></li>
+            </ul>
         </div>
         <div id="contact-info">
             <h1>Contact Us</h1>
-            <p>Send an email: </p><a href="mailto: jaxonhamm@yahoo.com">jaxonhamm@yahoo.com</a>
-            <p>Call: </p><a href="tel:#">1(800)XXX-XXXX</a>
+            <ul>
+                <li><p>Send an email: <a href="mailto:jaxonhamm@yahoo.com">jaxonhamm@yahoo.com</a></p></li>
+                <li><p>Call: <a href="tel:#">1(800)XXX-XXXX</a></p></li>
+            </ul>
         </div>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img src="images/facebook-logo-white.png" alt="facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img src="images/instagram-logo-white.png" alt="instagram">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter-logo-white.png" alt="twitter">
-        </a>
+        <div  id="socials">
+            <a href="https://www.facebook.com/" target="_blank" id="facebook">
+                <img src="images/facebook-logo-white.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" id="instagram">
+                <img src="images/instagram-logo-white.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank" id="twitter">
+                <img src="images/twitter-logo-white.png" alt="twitter">
+            </a>
+        </div>
     </footer>
     <script src="scripts/scripts.js"></script>
 </body>

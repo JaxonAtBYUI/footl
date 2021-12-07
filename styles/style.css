@@ -417,3 +417,108 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
 }
+
+/* Ted Bundy CSS */
+#mugshot {
+    margin: 40px auto 10px;
+    box-shadow: 5px 5px 10px var(--black);
+}
+#headline {
+    font-size: 3em;
+}
+
+#early-life {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 40px 1fr;
+}
+#early-life img  {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    margin: auto;
+}
+#early-life h3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 2em;
+    margin: auto;
+}
+#early-life p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+#education {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 40px 1fr;
+}
+#education img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    margin: auto;
+}
+#education h3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 2em;
+    margin: auto;
+}
+#education p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+#catching {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 40px 1fr;
+}
+#catching img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    margin: auto;
+}
+#catching h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 2em;
+    margin: auto;
+}
+#catching p {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 10px;
+}
+
+#trial {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 40px;
+}
+#trial img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    margin: auto;
+}
+#trial h3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 2em;
+    margin: auto;
+}
+#trial p {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 10px;
+}
